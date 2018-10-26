@@ -41,6 +41,31 @@ export default new Router({
           path:'newslist',
           name:'newslist',
           component: ()=> import('@/views/news/newslist')
+        },
+        {
+          path:'addcategory',
+          name:'addcategory',
+          component: () => import('@/views/news/addcategory')
+        },
+        {
+          path:'newsdetail/:id',
+          name:'newsdetail',
+          component: ()=> import('@/views/news/addnews')
+        },
+        {
+          path:'addswiper',
+          name:'addswiper',
+          component: ()=> import('@/views/swiper/addswiper')
+        },
+        {
+          path:'swiperlist',
+          name:'swiperlist',
+          component: ()=> import('@/views/swiper/swiperlist')
+        },
+        {
+          path:'swiper/:id',
+          name:'editswiper',
+          component: ()=> import('@/views/swiper/addswiper')
         }
       ]
     }

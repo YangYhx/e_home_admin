@@ -85,6 +85,8 @@
     }
 </script>
 
-<style scoped>
-
+<style>
+.ql-editor{
+  height: 150px;
+}
 </style>

@@ -24,7 +24,7 @@
             label="头像"
             width="180">
             <template slot-scope="scope">
-              <img :src="scope.row.avatar" style="width: 100%;height: 100%;">
+              <img :src="scope.row.avatar" style="width: 90px;height: 70px;">
             </template>
           </el-table-column>
 
